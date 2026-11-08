@@ -65,13 +65,13 @@ Floating illustration (4s), one entrance fade, hover lift and CTA arrow nudge.
 _Add screenshots here (desktop / tablet / mobile)._
 
 ## Live Demo
-_Add Vercel/Netlify link._
+https://veloop-banner-nine.vercel.app/
 
 ## GitHub Repository
-_Add repository link._
+https://github.com/anandnare/veloop-banner.git
 
 ## Author
-_Your name_
+Anand Nare
 
 ## Deployment
 `vercel.json` and `public/_redirects` are included so client-side routes work on Vercel and Netlify.
