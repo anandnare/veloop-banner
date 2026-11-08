@@ -1,0 +1,60 @@
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px 28px;
+}
+
+.code {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.label { font-size: 0.7rem; color: #9ca3c4; }
+
+.row {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  align-self: flex-start;
+  padding: 4px 6px 4px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px dashed rgba(167, 139, 250, 0.5);
+  letter-spacing: 1.5px;
+}
+
+.copy {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: rgba(139, 92, 246, 0.35);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.copy:hover { background: rgba(139, 92, 246, 0.6); }
+.copy:active { transform: scale(0.95); }
+.copy:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+
+.rewards {
+  display: flex;
+  gap: 24px;
+}
+.rewards div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.rewards small { font-size: 0.68rem; color: #9ca3c4; }
+.rewards strong {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #f5d27a;
+  font-size: 1rem;
+}

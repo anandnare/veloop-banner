@@ -1,0 +1,30 @@
+:root { color-scheme: dark; }
+body { margin: 0; background: #161827; color: #fff; font-family: 'Manrope', system-ui, sans-serif; }
+a { text-decoration: none; }
+
+/* Gradient text helpers (colour variables come from each banner theme) */
+.acc { background: var(--accentGrad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.acc-p { color: #a78bfa; }
+.acc-g { color: #e9bf62; }
+
+/* Shared, subtle animations (applied to SVG groups / elements) */
+.float-a { animation: floatY 5s ease-in-out infinite; }
+.float-b { animation: floatY 6.5s ease-in-out -2s infinite; }
+@keyframes floatY { 50% { transform: translateY(-8px); } }
+.spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.nudge-r { animation: nudgeR 1.8s ease-in-out infinite; }
+.nudge-l { animation: nudgeL 1.8s ease-in-out infinite; }
+@keyframes nudgeR { 50% { transform: translateX(10px); } }
+@keyframes nudgeL { 50% { transform: translateX(-10px); } }
+.flow { stroke-dasharray: 6 6; animation: flow 1.2s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -12; } }
+.ring { stroke-dasharray: 364; stroke-dashoffset: 364; animation: ring 2s ease-out .3s forwards; }
+@keyframes ring { to { stroke-dashoffset: 110; } }
+.blink { animation: blink 1s steps(2) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  .ring { stroke-dashoffset: 110 !important; }
+}
