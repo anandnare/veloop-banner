@@ -16,7 +16,6 @@ A redesign of five promotional / feature banners for **VELOOP Rewards**, built a
 - 100% width, heights clamped per device (Desktop 410–450px, Tablet 380–540px, Mobile 330–520px)
 - Optimised PNG illustrations (src/assets) with subtle floating animation; small inline SVG icons for the Gem / Coin / swap steps
 - Whole card is clickable; CTA has hover, active and keyboard focus states
-- Copy-to-clipboard referral code; whole banner card is clickable
 - `prefers-reduced-motion` respected; aria labels and alt text on all visuals
 - Reward numbers are **dummy data** – replace with approved values before release
 
@@ -60,7 +59,6 @@ src/
 
 ## Animation Details
 Floating illustration (4s), one entrance fade, hover lift and CTA arrow nudge.
-
 
 ## Live Demo
 https://veloop-banner-nine.vercel.app/
