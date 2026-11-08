@@ -61,8 +61,6 @@ src/
 ## Animation Details
 Floating illustration (4s), one entrance fade, hover lift and CTA arrow nudge.
 
-## Screenshots
-_Add screenshots here (desktop / tablet / mobile)._
 
 ## Live Demo
 https://veloop-banner-nine.vercel.app/
